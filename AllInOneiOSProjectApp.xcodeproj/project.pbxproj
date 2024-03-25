@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180D89A729E8284B004B097C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D89A629E8284B004B097C /* AppDelegate.swift */; };
+		180D89A929E8284B004B097C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D89A829E8284B004B097C /* SceneDelegate.swift */; };
+		180D89AE29E8284B004B097C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180D89AC29E8284B004B097C /* Main.storyboard */; };
+		180D89B029E8284E004B097C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180D89AF29E8284E004B097C /* Assets.xcassets */; };
+		180D89B329E8284E004B097C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180D89B129E8284E004B097C /* LaunchScreen.storyboard */; };
+		180D89BB29E8288C004B097C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D89BA29E8288C004B097C /* LoginViewController.swift */; };
+		180D89BD29E85C28004B097C /* DropDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D89BC29E85C28004B097C /* DropDownButton.swift */; };
+		181F6E502AA8EFF2003F7DB8 /* UIview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F6E4F2AA8EFF2003F7DB8 /* UIview.swift */; };
+		1831D48A29ED2CBF0085E5B1 /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831D48929ED2CBF0085E5B1 /* PageControlViewController.swift */; };
+		1831D48C29ED2CD30085E5B1 /* FirstPageSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831D48B29ED2CD30085E5B1 /* FirstPageSubViewController.swift */; };
+		1831D48E29ED2CE60085E5B1 /* SecondPageSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831D48D29ED2CE60085E5B1 /* SecondPageSubViewController.swift */; };
+		1831D49029ED37200085E5B1 /* GradientViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831D48F29ED37200085E5B1 /* GradientViewViewController.swift */; };
+		1831D49229ED3B5E0085E5B1 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831D49129ED3B5E0085E5B1 /* DatePickerViewController.swift */; };
+		1831D49429ED3D1E0085E5B1 /* ActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831D49329ED3D1E0085E5B1 /* ActivityIndicatorViewController.swift */; };
+		1831D49629ED42290085E5B1 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831D49529ED42290085E5B1 /* Extension.swift */; };
+		1831D49829ED44A80085E5B1 /* ShowWebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831D49729ED44A80085E5B1 /* ShowWebsiteViewController.swift */; };
+		1831D49A29ED47EB0085E5B1 /* HTMLToSwiftConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831D49929ED47EB0085E5B1 /* HTMLToSwiftConverterViewController.swift */; };
+		1831D49C29ED4FED0085E5B1 /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831D49B29ED4FED0085E5B1 /* MapKitViewController.swift */; };
+		1831D49E29ED5A160085E5B1 /* AllMapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831D49D29ED5A160085E5B1 /* AllMapKitViewController.swift */; };
+		1831D4A029ED5C9F0085E5B1 /* BasicMapkitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831D49F29ED5C9F0085E5B1 /* BasicMapkitViewController.swift */; };
+		1831D4A229ED5CB70085E5B1 /* GeographicalCordinatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831D4A129ED5CB70085E5B1 /* GeographicalCordinatesViewController.swift */; };
+		1831D4A429ED5CC40085E5B1 /* PointAnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831D4A329ED5CC40085E5B1 /* PointAnnotationViewController.swift */; };
+		1831D4A629ED5CD10085E5B1 /* ReverseGeoCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831D4A529ED5CD10085E5B1 /* ReverseGeoCodeViewController.swift */; };
+		1831D4A829ED7BA80085E5B1 /* SwitchAndStepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831D4A729ED7BA80085E5B1 /* SwitchAndStepperViewController.swift */; };
+		1831D4AA29EDCAAC0085E5B1 /* CustomActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831D4A929EDCAAC0085E5B1 /* CustomActivityIndicatorViewController.swift */; };
+		184C580629EE8B6000CFA99C /* CoreAnimationAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C580529EE8B6000CFA99C /* CoreAnimationAllViewController.swift */; };
+		184C580829EE8BF100CFA99C /* AllAnimationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C580729EE8BF100CFA99C /* AllAnimationTableViewCell.swift */; };
+		184C580A29EEA94900CFA99C /* AllUIIementsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C580929EEA94900CFA99C /* AllUIIementsListViewController.swift */; };
+		184C580C29EEAA7C00CFA99C /* AllElementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C580B29EEAA7C00CFA99C /* AllElementTableViewCell.swift */; };
+		1874E3CE29E9C15F005FF8F7 /* AllAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3CD29E9C15F005FF8F7 /* AllAppViewController.swift */; };
+		1874E3D029E9C29C005FF8F7 /* AllAppListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3CF29E9C29C005FF8F7 /* AllAppListCell.swift */; };
+		1874E3D329E9C5AC005FF8F7 /* ColourPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3D229E9C5AC005FF8F7 /* ColourPickerViewController.swift */; };
+		1874E3D929E9D1FA005FF8F7 /* AudioVideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3D829E9D1FA005FF8F7 /* AudioVideoPlayerViewController.swift */; };
+		1874E3DC29E9D650005FF8F7 /* HARHAR.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1874E3DB29E9D650005FF8F7 /* HARHAR.mp3 */; };
+		1874E3E029E9EE29005FF8F7 /* AlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874E3DF29E9EE29005FF8F7 /* AlertsViewController.swift */; };
+		18A983222AB5A03D00A06C19 /* Chakna Chakna (Official Video Song) - Namastey London - Akshay Kumar & Katrina Kaif.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18A983212AB59F6D00A06C19 /* Chakna Chakna (Official Video Song) - Namastey London - Akshay Kumar & Katrina Kaif.mp4 */; };
+		18A983242AB5A2CD00A06C19 /* Ajay-Atul - Deva Shree Ganesha Best Video-Agneepath-Priyanka Chopra-Hrithik-Ajay Gogavale.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18A983232AB5A2CD00A06C19 /* Ajay-Atul - Deva Shree Ganesha Best Video-Agneepath-Priyanka Chopra-Hrithik-Ajay Gogavale.mp4 */; };
+		18A983262AB5A2F300A06C19 /* Full Video- Maay Bhavani - Tanhaji- The Unsung Warrior - Ajay, Kajol - Sukhwinder S, Shreya G.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18A983252AB5A2F300A06C19 /* Full Video- Maay Bhavani - Tanhaji- The Unsung Warrior - Ajay, Kajol - Sukhwinder S, Shreya G.mp4 */; };
+		18A983282AB5A2FB00A06C19 /* Ghamand Kar Song _ Tanhaji The Unsung Warrior _ Ajay, Kajol, Saif _ Sachet - Parampara _ 10 Jan 2020.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18A983272AB5A2FB00A06C19 /* Ghamand Kar Song _ Tanhaji The Unsung Warrior _ Ajay, Kajol, Saif _ Sachet - Parampara _ 10 Jan 2020.mp4 */; };
+		18A9832A2AB5A30800A06C19 /* Full Video- Shankara Re Shankara - Tanhaji The Unsung Warrior - Ajay D, Saif Ali K - Mehul Vyas.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18A983292AB5A30800A06C19 /* Full Video- Shankara Re Shankara - Tanhaji The Unsung Warrior - Ajay D, Saif Ali K - Mehul Vyas.mp4 */; };
+		18A9832C2AB5A32600A06C19 /* LYRICAL- Saugandh Mujhe Iss Mitti Ki Song - PM Narendra Modi - Vivek Oberoi-Sukhwinder Singh,Shashi.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18A9832B2AB5A32500A06C19 /* LYRICAL- Saugandh Mujhe Iss Mitti Ki Song - PM Narendra Modi - Vivek Oberoi-Sukhwinder Singh,Shashi.mp4 */; };
+		18A9832E2AB5A32C00A06C19 /* Morya Morya - Superhit Ganpati Song - Ajay - Atul - Uladhaal Marathi Movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18A9832D2AB5A32C00A06C19 /* Morya Morya - Superhit Ganpati Song - Ajay - Atul - Uladhaal Marathi Movie.mp4 */; };
+		18A983302AB5A33D00A06C19 /* Rafta Rafta (Official Song Video) - Namastey London - Akshay Kumar & Katrina Kaif.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18A9832F2AB5A33D00A06C19 /* Rafta Rafta (Official Song Video) - Namastey London - Akshay Kumar & Katrina Kaif.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180D89A329E8284B004B097C /* AllInOneiOSProjectApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllInOneiOSProjectApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180D89A629E8284B004B097C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		180D89A829E8284B004B097C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		180D89AD29E8284B004B097C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180D89AF29E8284E004B097C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180D89B229E8284E004B097C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180D89B429E8284E004B097C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180D89BA29E8288C004B097C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		180D89BC29E85C28004B097C /* DropDownButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownButton.swift; sourceTree = "<group>"; };
+		181F6E4F2AA8EFF2003F7DB8 /* UIview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIview.swift; sourceTree = "<group>"; };
+		1831D48929ED2CBF0085E5B1 /* PageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; };
+		1831D48B29ED2CD30085E5B1 /* FirstPageSubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageSubViewController.swift; sourceTree = "<group>"; };
+		1831D48D29ED2CE60085E5B1 /* SecondPageSubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageSubViewController.swift; sourceTree = "<group>"; };
+		1831D48F29ED37200085E5B1 /* GradientViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewViewController.swift; sourceTree = "<group>"; };
+		1831D49129ED3B5E0085E5B1 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		1831D49329ED3D1E0085E5B1 /* ActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorViewController.swift; sourceTree = "<group>"; };
+		1831D49529ED42290085E5B1 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		1831D49729ED44A80085E5B1 /* ShowWebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWebsiteViewController.swift; sourceTree = "<group>"; };
+		1831D49929ED47EB0085E5B1 /* HTMLToSwiftConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLToSwiftConverterViewController.swift; sourceTree = "<group>"; };
+		1831D49B29ED4FED0085E5B1 /* MapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		1831D49D29ED5A160085E5B1 /* AllMapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMapKitViewController.swift; sourceTree = "<group>"; };
+		1831D49F29ED5C9F0085E5B1 /* BasicMapkitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMapkitViewController.swift; sourceTree = "<group>"; };
+		1831D4A129ED5CB70085E5B1 /* GeographicalCordinatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeographicalCordinatesViewController.swift; sourceTree = "<group>"; };
+		1831D4A329ED5CC40085E5B1 /* PointAnnotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointAnnotationViewController.swift; sourceTree = "<group>"; };
+		1831D4A529ED5CD10085E5B1 /* ReverseGeoCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGeoCodeViewController.swift; sourceTree = "<group>"; };
+		1831D4A729ED7BA80085E5B1 /* SwitchAndStepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchAndStepperViewController.swift; sourceTree = "<group>"; };
+		1831D4A929EDCAAC0085E5B1 /* CustomActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActivityIndicatorViewController.swift; sourceTree = "<group>"; };
+		184C580529EE8B6000CFA99C /* CoreAnimationAllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAnimationAllViewController.swift; sourceTree = "<group>"; };
+		184C580729EE8BF100CFA99C /* AllAnimationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllAnimationTableViewCell.swift; sourceTree = "<group>"; };
+		184C580929EEA94900CFA99C /* AllUIIementsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllUIIementsListViewController.swift; sourceTree = "<group>"; };
+		184C580B29EEAA7C00CFA99C /* AllElementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllElementTableViewCell.swift; sourceTree = "<group>"; };
+		1874E3CD29E9C15F005FF8F7 /* AllAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllAppViewController.swift; sourceTree = "<group>"; };
+		1874E3CF29E9C29C005FF8F7 /* AllAppListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllAppListCell.swift; sourceTree = "<group>"; };
+		1874E3D229E9C5AC005FF8F7 /* ColourPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourPickerViewController.swift; sourceTree = "<group>"; };
+		1874E3D829E9D1FA005FF8F7 /* AudioVideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioVideoPlayerViewController.swift; sourceTree = "<group>"; };
+		1874E3DB29E9D650005FF8F7 /* HARHAR.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HARHAR.mp3; sourceTree = "<group>"; };
+		1874E3DF29E9EE29005FF8F7 /* AlertsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsViewController.swift; sourceTree = "<group>"; };
+		18A983212AB59F6D00A06C19 /* Chakna Chakna (Official Video Song) - Namastey London - Akshay Kumar & Katrina Kaif.mp4 */ = {isa = PBXFileReference; explicitFileType = video.quicktime; path = "Chakna Chakna (Official Video Song) - Namastey London - Akshay Kumar & Katrina Kaif.mp4"; sourceTree = "<group>"; };
+		18A983232AB5A2CD00A06C19 /* Ajay-Atul - Deva Shree Ganesha Best Video-Agneepath-Priyanka Chopra-Hrithik-Ajay Gogavale.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ajay-Atul - Deva Shree Ganesha Best Video-Agneepath-Priyanka Chopra-Hrithik-Ajay Gogavale.mp4"; sourceTree = "<group>"; };
+		18A983252AB5A2F300A06C19 /* Full Video- Maay Bhavani - Tanhaji- The Unsung Warrior - Ajay, Kajol - Sukhwinder S, Shreya G.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Full Video- Maay Bhavani - Tanhaji- The Unsung Warrior - Ajay, Kajol - Sukhwinder S, Shreya G.mp4"; sourceTree = "<group>"; };
+		18A983272AB5A2FB00A06C19 /* Ghamand Kar Song _ Tanhaji The Unsung Warrior _ Ajay, Kajol, Saif _ Sachet - Parampara _ 10 Jan 2020.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ghamand Kar Song _ Tanhaji The Unsung Warrior _ Ajay, Kajol, Saif _ Sachet - Parampara _ 10 Jan 2020.mp4"; sourceTree = "<group>"; };
+		18A983292AB5A30800A06C19 /* Full Video- Shankara Re Shankara - Tanhaji The Unsung Warrior - Ajay D, Saif Ali K - Mehul Vyas.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Full Video- Shankara Re Shankara - Tanhaji The Unsung Warrior - Ajay D, Saif Ali K - Mehul Vyas.mp4"; sourceTree = "<group>"; };
+		18A9832B2AB5A32500A06C19 /* LYRICAL- Saugandh Mujhe Iss Mitti Ki Song - PM Narendra Modi - Vivek Oberoi-Sukhwinder Singh,Shashi.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LYRICAL- Saugandh Mujhe Iss Mitti Ki Song - PM Narendra Modi - Vivek Oberoi-Sukhwinder Singh,Shashi.mp4"; sourceTree = "<group>"; };
+		18A9832D2AB5A32C00A06C19 /* Morya Morya - Superhit Ganpati Song - Ajay - Atul - Uladhaal Marathi Movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Morya Morya - Superhit Ganpati Song - Ajay - Atul - Uladhaal Marathi Movie.mp4"; sourceTree = "<group>"; };
+		18A9832F2AB5A33D00A06C19 /* Rafta Rafta (Official Song Video) - Namastey London - Akshay Kumar & Katrina Kaif.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rafta Rafta (Official Song Video) - Namastey London - Akshay Kumar & Katrina Kaif.mp4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180D89A029E8284B004B097C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180D899A29E8284B004B097C = {
+			isa = PBXGroup;
+			children = (
+				180D89A529E8284B004B097C /* AllInOneiOSProjectApp */,
+				180D89A429E8284B004B097C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180D89A429E8284B004B097C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180D89A329E8284B004B097C /* AllInOneiOSProjectApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180D89A529E8284B004B097C /* AllInOneiOSProjectApp */ = {
+			isa = PBXGroup;
+			children = (
+				1874E3DA29E9D63D005FF8F7 /* AudioVideoFile */,
+				180D89A629E8284B004B097C /* AppDelegate.swift */,
+				180D89A829E8284B004B097C /* SceneDelegate.swift */,
+				180D89BA29E8288C004B097C /* LoginViewController.swift */,
+				1874E3CD29E9C15F005FF8F7 /* AllAppViewController.swift */,
+				1874E3D429E9C735005FF8F7 /* HelperClasses */,
+				181F6E4E2AA8EFC5003F7DB8 /* AllUIElemnts */,
+				1874E3D129E9C589005FF8F7 /* AppLists */,
+				1874E3D529E9C74E005FF8F7 /* Cells */,
+				180D89BC29E85C28004B097C /* DropDownButton.swift */,
+				180D89AC29E8284B004B097C /* Main.storyboard */,
+				180D89AF29E8284E004B097C /* Assets.xcassets */,
+				180D89B129E8284E004B097C /* LaunchScreen.storyboard */,
+				180D89B429E8284E004B097C /* Info.plist */,
+			);
+			path = AllInOneiOSProjectApp;
+			sourceTree = "<group>";
+		};
+		181F6E4E2AA8EFC5003F7DB8 /* AllUIElemnts */ = {
+			isa = PBXGroup;
+			children = (
+				181F6E4F2AA8EFF2003F7DB8 /* UIview.swift */,
+			);
+			path = AllUIElemnts;
+			sourceTree = "<group>";
+		};
+		1874E3D129E9C589005FF8F7 /* AppLists */ = {
+			isa = PBXGroup;
+			children = (
+				184C580929EEA94900CFA99C /* AllUIIementsListViewController.swift */,
+				1874E3D229E9C5AC005FF8F7 /* ColourPickerViewController.swift */,
+				1874E3D829E9D1FA005FF8F7 /* AudioVideoPlayerViewController.swift */,
+				1874E3DF29E9EE29005FF8F7 /* AlertsViewController.swift */,
+				1831D48929ED2CBF0085E5B1 /* PageControlViewController.swift */,
+				1831D48B29ED2CD30085E5B1 /* FirstPageSubViewController.swift */,
+				1831D48D29ED2CE60085E5B1 /* SecondPageSubViewController.swift */,
+				1831D48F29ED37200085E5B1 /* GradientViewViewController.swift */,
+				1831D49129ED3B5E0085E5B1 /* DatePickerViewController.swift */,
+				1831D49329ED3D1E0085E5B1 /* ActivityIndicatorViewController.swift */,
+				1831D49729ED44A80085E5B1 /* ShowWebsiteViewController.swift */,
+				1831D49929ED47EB0085E5B1 /* HTMLToSwiftConverterViewController.swift */,
+				1831D49D29ED5A160085E5B1 /* AllMapKitViewController.swift */,
+				1831D49B29ED4FED0085E5B1 /* MapKitViewController.swift */,
+				1831D49F29ED5C9F0085E5B1 /* BasicMapkitViewController.swift */,
+				1831D4A129ED5CB70085E5B1 /* GeographicalCordinatesViewController.swift */,
+				1831D4A329ED5CC40085E5B1 /* PointAnnotationViewController.swift */,
+				1831D4A529ED5CD10085E5B1 /* ReverseGeoCodeViewController.swift */,
+				1831D4A729ED7BA80085E5B1 /* SwitchAndStepperViewController.swift */,
+				1831D4A929EDCAAC0085E5B1 /* CustomActivityIndicatorViewController.swift */,
+				184C580529EE8B6000CFA99C /* CoreAnimationAllViewController.swift */,
+			);
+			path = AppLists;
+			sourceTree = "<group>";
+		};
+		1874E3D429E9C735005FF8F7 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				1831D49529ED42290085E5B1 /* Extension.swift */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		1874E3D529E9C74E005FF8F7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1874E3CF29E9C29C005FF8F7 /* AllAppListCell.swift */,
+				184C580B29EEAA7C00CFA99C /* AllElementTableViewCell.swift */,
+				184C580729EE8BF100CFA99C /* AllAnimationTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1874E3DA29E9D63D005FF8F7 /* AudioVideoFile */ = {
+			isa = PBXGroup;
+			children = (
+				1874E3DB29E9D650005FF8F7 /* HARHAR.mp3 */,
+				18A983232AB5A2CD00A06C19 /* Ajay-Atul - Deva Shree Ganesha Best Video-Agneepath-Priyanka Chopra-Hrithik-Ajay Gogavale.mp4 */,
+				18A983212AB59F6D00A06C19 /* Chakna Chakna (Official Video Song) - Namastey London - Akshay Kumar & Katrina Kaif.mp4 */,
+				18A983252AB5A2F300A06C19 /* Full Video- Maay Bhavani - Tanhaji- The Unsung Warrior - Ajay, Kajol - Sukhwinder S, Shreya G.mp4 */,
+				18A983272AB5A2FB00A06C19 /* Ghamand Kar Song _ Tanhaji The Unsung Warrior _ Ajay, Kajol, Saif _ Sachet - Parampara _ 10 Jan 2020.mp4 */,
+				18A983292AB5A30800A06C19 /* Full Video- Shankara Re Shankara - Tanhaji The Unsung Warrior - Ajay D, Saif Ali K - Mehul Vyas.mp4 */,
+				18A9832B2AB5A32500A06C19 /* LYRICAL- Saugandh Mujhe Iss Mitti Ki Song - PM Narendra Modi - Vivek Oberoi-Sukhwinder Singh,Shashi.mp4 */,
+				18A9832D2AB5A32C00A06C19 /* Morya Morya - Superhit Ganpati Song - Ajay - Atul - Uladhaal Marathi Movie.mp4 */,
+				18A9832F2AB5A33D00A06C19 /* Rafta Rafta (Official Song Video) - Namastey London - Akshay Kumar & Katrina Kaif.mp4 */,
+			);
+			path = AudioVideoFile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180D89A229E8284B004B097C /* AllInOneiOSProjectApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180D89B729E8284E004B097C /* Build configuration list for PBXNativeTarget "AllInOneiOSProjectApp" */;
+			buildPhases = (
+				180D899F29E8284B004B097C /* Sources */,
+				180D89A029E8284B004B097C /* Frameworks */,
+				180D89A129E8284B004B097C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AllInOneiOSProjectApp;
+			productName = AllInOneiOSProjectApp;
+			productReference = 180D89A329E8284B004B097C /* AllInOneiOSProjectApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180D899B29E8284B004B097C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					180D89A229E8284B004B097C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 180D899E29E8284B004B097C /* Build configuration list for PBXProject "AllInOneiOSProjectApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180D899A29E8284B004B097C;
+			productRefGroup = 180D89A429E8284B004B097C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180D89A229E8284B004B097C /* AllInOneiOSProjectApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180D89A129E8284B004B097C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180D89B329E8284E004B097C /* LaunchScreen.storyboard in Resources */,
+				180D89B029E8284E004B097C /* Assets.xcassets in Resources */,
+				18A983302AB5A33D00A06C19 /* Rafta Rafta (Official Song Video) - Namastey London - Akshay Kumar & Katrina Kaif.mp4 in Resources */,
+				18A9832C2AB5A32600A06C19 /* LYRICAL- Saugandh Mujhe Iss Mitti Ki Song - PM Narendra Modi - Vivek Oberoi-Sukhwinder Singh,Shashi.mp4 in Resources */,
+				18A983262AB5A2F300A06C19 /* Full Video- Maay Bhavani - Tanhaji- The Unsung Warrior - Ajay, Kajol - Sukhwinder S, Shreya G.mp4 in Resources */,
+				18A983282AB5A2FB00A06C19 /* Ghamand Kar Song _ Tanhaji The Unsung Warrior _ Ajay, Kajol, Saif _ Sachet - Parampara _ 10 Jan 2020.mp4 in Resources */,
+				18A9832A2AB5A30800A06C19 /* Full Video- Shankara Re Shankara - Tanhaji The Unsung Warrior - Ajay D, Saif Ali K - Mehul Vyas.mp4 in Resources */,
+				1874E3DC29E9D650005FF8F7 /* HARHAR.mp3 in Resources */,
+				18A983222AB5A03D00A06C19 /* Chakna Chakna (Official Video Song) - Namastey London - Akshay Kumar & Katrina Kaif.mp4 in Resources */,
+				18A9832E2AB5A32C00A06C19 /* Morya Morya - Superhit Ganpati Song - Ajay - Atul - Uladhaal Marathi Movie.mp4 in Resources */,
+				180D89AE29E8284B004B097C /* Main.storyboard in Resources */,
+				18A983242AB5A2CD00A06C19 /* Ajay-Atul - Deva Shree Ganesha Best Video-Agneepath-Priyanka Chopra-Hrithik-Ajay Gogavale.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180D899F29E8284B004B097C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1831D48C29ED2CD30085E5B1 /* FirstPageSubViewController.swift in Sources */,
+				180D89BD29E85C28004B097C /* DropDownButton.swift in Sources */,
+				1831D49229ED3B5E0085E5B1 /* DatePickerViewController.swift in Sources */,
+				180D89BB29E8288C004B097C /* LoginViewController.swift in Sources */,
+				1831D4A229ED5CB70085E5B1 /* GeographicalCordinatesViewController.swift in Sources */,
+				1831D4A429ED5CC40085E5B1 /* PointAnnotationViewController.swift in Sources */,
+				184C580829EE8BF100CFA99C /* AllAnimationTableViewCell.swift in Sources */,
+				1874E3CE29E9C15F005FF8F7 /* AllAppViewController.swift in Sources */,
+				1831D49829ED44A80085E5B1 /* ShowWebsiteViewController.swift in Sources */,
+				1874E3D029E9C29C005FF8F7 /* AllAppListCell.swift in Sources */,
+				184C580C29EEAA7C00CFA99C /* AllElementTableViewCell.swift in Sources */,
+				1874E3E029E9EE29005FF8F7 /* AlertsViewController.swift in Sources */,
+				1831D4AA29EDCAAC0085E5B1 /* CustomActivityIndicatorViewController.swift in Sources */,
+				181F6E502AA8EFF2003F7DB8 /* UIview.swift in Sources */,
+				1831D49629ED42290085E5B1 /* Extension.swift in Sources */,
+				1831D49C29ED4FED0085E5B1 /* MapKitViewController.swift in Sources */,
+				1831D49A29ED47EB0085E5B1 /* HTMLToSwiftConverterViewController.swift in Sources */,
+				1874E3D929E9D1FA005FF8F7 /* AudioVideoPlayerViewController.swift in Sources */,
+				1831D4A629ED5CD10085E5B1 /* ReverseGeoCodeViewController.swift in Sources */,
+				180D89A729E8284B004B097C /* AppDelegate.swift in Sources */,
+				1831D48A29ED2CBF0085E5B1 /* PageControlViewController.swift in Sources */,
+				1831D49E29ED5A160085E5B1 /* AllMapKitViewController.swift in Sources */,
+				184C580A29EEA94900CFA99C /* AllUIIementsListViewController.swift in Sources */,
+				184C580629EE8B6000CFA99C /* CoreAnimationAllViewController.swift in Sources */,
+				1831D4A829ED7BA80085E5B1 /* SwitchAndStepperViewController.swift in Sources */,
+				1831D49029ED37200085E5B1 /* GradientViewViewController.swift in Sources */,
+				180D89A929E8284B004B097C /* SceneDelegate.swift in Sources */,
+				1831D4A029ED5C9F0085E5B1 /* BasicMapkitViewController.swift in Sources */,
+				1831D48E29ED2CE60085E5B1 /* SecondPageSubViewController.swift in Sources */,
+				1831D49429ED3D1E0085E5B1 /* ActivityIndicatorViewController.swift in Sources */,
+				1874E3D329E9C5AC005FF8F7 /* ColourPickerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		180D89AC29E8284B004B097C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180D89AD29E8284B004B097C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180D89B129E8284E004B097C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180D89B229E8284E004B097C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180D89B529E8284E004B097C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		180D89B629E8284E004B097C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180D89B829E8284E004B097C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79CA3F4JG8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AllInOneiOSProjectApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = na.AllInOneiOSProjectApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		180D89B929E8284E004B097C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79CA3F4JG8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AllInOneiOSProjectApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = na.AllInOneiOSProjectApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180D899E29E8284B004B097C /* Build configuration list for PBXProject "AllInOneiOSProjectApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180D89B529E8284E004B097C /* Debug */,
+				180D89B629E8284E004B097C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180D89B729E8284E004B097C /* Build configuration list for PBXNativeTarget "AllInOneiOSProjectApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180D89B829E8284E004B097C /* Debug */,
+				180D89B929E8284E004B097C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180D899B29E8284B004B097C /* Project object */;
+}
